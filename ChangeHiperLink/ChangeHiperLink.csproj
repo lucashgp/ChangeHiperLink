@@ -6,6 +6,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Camlex.Client.dll" Version="5.0.0" />
+    <PackageReference Include="Microsoft.SharePointOnline.CSOM" Version="16.1.21714.12000" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Reference Include="Microsoft.SharePoint">
       <HintPath>..\..\SPDLL\SPDLL\Microsoft.SharePoint.dll</HintPath>
     </Reference>

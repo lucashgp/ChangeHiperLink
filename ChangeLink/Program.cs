@@ -53,7 +53,9 @@ namespace ChangeLink
                         if (count == 50)
                         {
                             cc.ExecuteQuery();
+                            count = 0;
                         }
+                        count++;
                     }
                     cc.ExecuteQuery();
                 }
